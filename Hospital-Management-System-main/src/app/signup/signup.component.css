@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(blueviolet,rgb(170, 163, 164));
+  }
+  .card {
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, rgb(87, 85, 86) 0%, rgb(122, 13, 64) 100%);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(15, 18, 173, 0.3);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0.9;
+    z-index: 1;
+    filter: grayscale(50%);
+    mix-blend-mode: multiply;
+  }
+  
+  .card label h1,
+  .card h6 {
+    color: wheat;
+  }
+  
+  label {
+    color: wheat;
+  }
+  
+  .text-center h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color:whitesmoke;
+    font-weight: 400;
+    font-size: xxx-large;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+  
+  .card:hover label h1,
+  .card:hover h6 {
+    color: whitesmoke;
+  }
+  
+  .card:hover label {
+    text-decoration: underline;
+    cursor: pointer;
+  }
